@@ -1587,39 +1587,39 @@ msgstr "亮度"
 
 #: modules/computer.c:385
 msgid "Single-board computer"
-msgstr ""
+msgstr "单板电脑"
 
 #. /proc/apm
 #: modules/computer.c:434
 msgid "Unknown physical machine type"
-msgstr ""
+msgstr "未知物理设备类型"
 
 #: modules/computer.c:454 modules/computer.c:455
 msgid "Virtual (VMware)"
-msgstr "Virtual (VMware)"
+msgstr "虚拟机 (VMware)"
 
 #: modules/computer.c:457 modules/computer.c:458 modules/computer.c:459
 #: modules/computer.c:460
 msgid "Virtual (QEMU)"
-msgstr "Virtual (QEMU)"
+msgstr "虚拟机 (QEMU)"
 
 #: modules/computer.c:462 modules/computer.c:463
 msgid "Virtual (Unknown)"
-msgstr "Virtual (Unknown)"
+msgstr "虚拟积极 (未知)"
 
 #: modules/computer.c:465 modules/computer.c:466 modules/computer.c:467
 #: modules/computer.c:488
 msgid "Virtual (VirtualBox)"
-msgstr "Virtual (VirtualBox)"
+msgstr "虚拟机 (VirtualBox)"
 
 #: modules/computer.c:469 modules/computer.c:470 modules/computer.c:471
 #: modules/computer.c:482
 msgid "Virtual (Xen)"
-msgstr "Virtual (Xen)"
+msgstr "虚拟机 (Xen)"
 
 #: modules/computer.c:473
 msgid "Virtual (hypervisor present)"
-msgstr "Virtual (hypervisor present)"
+msgstr "虚拟机 (有虚拟机管理程序)"
 
 #: modules/computer.c:528 modules/computer.c:953
 msgid "Computer"
@@ -1627,7 +1627,7 @@ msgstr "计算机"
 
 #: modules/computer.c:532
 msgid "Machine Type"
-msgstr "机器类型"
+msgstr "设备类型"
 
 #: modules/computer.c:535 modules/computer.c:588
 msgid "User Name"
@@ -1635,12 +1635,12 @@ msgstr "用户名"
 
 #: modules/computer.c:540
 msgid "Resolution"
-msgstr "解决方案"
+msgstr "屏幕分辨率"
 
 #: modules/computer.c:540 modules/computer.c:748
 #, c-format
 msgid "%dx%d pixels"
-msgstr ""
+msgstr "%dx%d 像素"
 
 #: modules/computer.c:543
 msgid "Session Display Server"
@@ -1656,7 +1656,7 @@ msgstr "内核"
 
 #: modules/computer.c:573
 msgid "Command Line"
-msgstr ""
+msgstr "命令行"
 
 #: modules/computer.c:575
 msgid "C Library"
@@ -1688,7 +1688,7 @@ msgstr "主目录"
 
 #: modules/computer.c:591
 msgid "Desktop Environment"
-msgstr ""
+msgstr "桌面环境"
 
 #: modules/computer.c:594
 msgid "Misc"
@@ -1696,27 +1696,27 @@ msgstr "其它"
 
 #: modules/computer.c:607
 msgid "HardInfo"
-msgstr ""
+msgstr "HardInfo"
 
 #: modules/computer.c:608
 msgid "HardInfo running as"
-msgstr ""
+msgstr "Hardinfo运行权限"
 
 #: modules/computer.c:609
 msgid "Superuser"
-msgstr ""
+msgstr "管理员/超级用户"
 
 #: modules/computer.c:609
 msgid "User"
-msgstr ""
+msgstr "用户"
 
 #: modules/computer.c:613
 msgid "Health"
-msgstr ""
+msgstr "健康"
 
 #: modules/computer.c:614
 msgid "Available entropy in /dev/random"
-msgstr ""
+msgstr "/dev/random可用熵"
 
 #: modules/computer.c:618
 msgid "Hardening Features"
@@ -1724,7 +1724,7 @@ msgstr ""
 
 #: modules/computer.c:619
 msgid "ASLR"
-msgstr ""
+msgstr "地址空间布局随机化"
 
 #: modules/computer.c:620
 msgid "dmesg"
@@ -1732,19 +1732,19 @@ msgstr ""
 
 #: modules/computer.c:624
 msgid "Linux Security Modules"
-msgstr ""
+msgstr "Linux安全模块"
 
 #: modules/computer.c:625
 msgid "Modules available"
-msgstr ""
+msgstr "可用模块"
 
 #: modules/computer.c:626
 msgid "SELinux status"
-msgstr ""
+msgstr "SELinux状态"
 
 #: modules/computer.c:632
 msgid "CPU Vulnerabilities"
-msgstr ""
+msgstr "CPU漏洞"
 
 #: modules/computer.c:664
 msgid "Loaded Modules"
@@ -1822,7 +1822,7 @@ msgstr "销售者"
 
 #: modules/computer.c:744
 msgid "Release Number"
-msgstr ""
+msgstr "版本号"
 
 #: modules/computer.c:752
 msgid "Screens"
@@ -1843,11 +1843,11 @@ msgstr "未使用"
 #: modules/computer.c:770
 #, c-format
 msgid "%dx%d pixels, offset (%d, %d)"
-msgstr ""
+msgstr "%dx%d 像素, offset (%d, %d)"
 
 #: modules/computer.c:779
 msgid "Outputs (XRandR)"
-msgstr "Outputs (XRandR)"
+msgstr "输出 (XRandR)"
 
 #: modules/computer.c:781
 msgid "OpenGL (GLX)"
@@ -1863,23 +1863,23 @@ msgstr "直接渲染"
 
 #: modules/computer.c:786
 msgid "Version (Compatibility)"
-msgstr ""
+msgstr "版本（兼容性）"
 
 #: modules/computer.c:787
 msgid "Shading Language Version (Compatibility)"
-msgstr ""
+msgstr "着色语言版本（兼容性）"
 
 #: modules/computer.c:788
 msgid "Version (Core)"
-msgstr ""
+msgstr "版本（核心）"
 
 #: modules/computer.c:789
 msgid "Shading Language Version (Core)"
-msgstr ""
+msgstr "着色语言版本（核心）"
 
 #: modules/computer.c:790
 msgid "Version (ES)"
-msgstr ""
+msgstr "版本"
 
 #: modules/computer.c:791
 msgid "Shading Language Version (ES)"
@@ -1994,7 +1994,7 @@ msgstr "电子邮件"
 
 #: modules/computer/languages.c:100
 msgid "Territory"
-msgstr ""
+msgstr "国家或地区"
 
 #: modules/computer/languages.c:102 modules/devices/dmi.c:44
 msgid "Date"
@@ -2006,7 +2006,7 @@ msgstr "系统代码集"
 
 #: modules/computer/loadavg.c:64
 msgid "Couldn't obtain load average"
-msgstr ""
+msgstr "无法获取系统负载信息"
 
 #: modules/computer/memory_usage.c:106
 msgid "Total Memory"
@@ -2070,15 +2070,15 @@ msgstr "版本魔数"
 
 #: modules/computer/modules.c:151
 msgid "In Linus' Tree"
-msgstr ""
+msgstr "在Linus树中"
 
 #: modules/computer/modules.c:152
 msgid "Retpoline Enabled"
-msgstr ""
+msgstr "启用Retpoline"
 
 #: modules/computer/modules.c:152
 msgid "Copyright"
-msgstr "版权所有"
+msgstr "版权信息"
 
 #: modules/computer/modules.c:152
 msgid "Author"
@@ -2115,7 +2115,7 @@ msgstr "版本： "
 
 #: modules/computer/os.c:146 modules/computer/os.c:149
 msgid "MATE Desktop Environment "
-msgstr ""
+msgstr "MATE桌面环境"
 
 #: modules/computer/os.c:180
 #, c-format
@@ -2134,62 +2134,62 @@ msgstr "终端"
 
 #: modules/computer/os.c:278
 msgid "User access allowed"
-msgstr ""
+msgstr "允许用户访问"
 
 #: modules/computer/os.c:280
 msgid "User access forbidden"
-msgstr ""
+msgstr "用户访问被阻止"
 
 #: modules/computer/os.c:282
 msgid "Access allowed (running as superuser)"
-msgstr ""
+msgstr "允许访问（以超级用户的身份）"
 
 #: modules/computer/os.c:284
 msgid "Access forbidden? (running as superuser)"
-msgstr ""
+msgstr "访问被阻止？（以超级用户的身份）"
 
 #: modules/computer/os.c:294 modules/computer/os.c:560
 msgid "Disabled"
-msgstr ""
+msgstr "禁用"
 
 #: modules/computer/os.c:296
 msgid "Partially enabled (mmap base+stack+VDSO base)"
-msgstr ""
+msgstr "部分启用 (mmap base+stack+VDSO base)"
 
 #: modules/computer/os.c:298
 msgid "Fully enabled (mmap base+stack+VDSO base+heap)"
-msgstr ""
+msgstr "完全启用 (mmap base+stack+VDSO base+heap)"
 
 #. /bits of entropy for rng (0)
 #: modules/computer/os.c:308
 msgid "(None or not available)"
-msgstr ""
+msgstr "（无或不可用）"
 
 #. /bits of entropy for rng (low/poor value)
 #: modules/computer/os.c:309
 #, c-format
 msgid "%d bits (low)"
-msgstr ""
+msgstr "%d bits (低)"
 
 #. /bits of entropy for rng (medium value)
 #: modules/computer/os.c:310
 #, c-format
 msgid "%d bits (medium)"
-msgstr ""
+msgstr "%d bits (中)"
 
 #. /bits of entropy for rng (high/good value)
 #: modules/computer/os.c:311
 #, c-format
 msgid "%d bits (healthy)"
-msgstr ""
+msgstr "%d bits (良好)"
 
 #: modules/computer/os.c:555
 msgid "Not installed"
-msgstr ""
+msgstr "未安装"
 
 #: modules/computer/os.c:558
 msgid "Enabled"
-msgstr ""
+msgstr "已启用"
 
 #: modules/computer/users.c:47
 msgid "User Information"

@@ -16,5 +16,5 @@ Icon=hardinfo
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=System;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;
 Keywords=linux;kernel;system;hardware;cpu;processor;capabilities;frequency;memory;ram;board;resources;sensors;devices;usb;pci;display;network;benchmark;test;

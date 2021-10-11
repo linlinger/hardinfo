@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: hardinfo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-24 15:16-0500\n"
-"PO-Revision-Date: 2018-06-22 16:23+0800\n"
+"PO-Revision-Date: 2021-10-11 16:32+0800\n"
 "Last-Translator: yetist <yetist@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: ..\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: hardinfo/cpu_util.c:30
@@ -30,7 +30,7 @@ msgstr "大端序"
 
 #: hardinfo/cpu_util.c:184 hardinfo/cpu_util.c:195 modules/devices/gpu.c:200
 msgid "Frequency Scaling"
-msgstr ""
+msgstr "频率缩放"
 
 #: hardinfo/cpu_util.c:185 modules/devices/gpu.c:201
 msgid "Minimum"
@@ -51,7 +51,7 @@ msgstr "当前设置"
 
 #: hardinfo/cpu_util.c:188 modules/devices/gpu.c:203
 msgid "Transition Latency"
-msgstr ""
+msgstr "转换延迟"
 
 #: hardinfo/cpu_util.c:188 modules/devices/gpu.c:203
 msgid "ns"
@@ -59,7 +59,7 @@ msgstr "ns"
 
 #: hardinfo/cpu_util.c:189
 msgid "Governor"
-msgstr ""
+msgstr "管理"
 
 #: hardinfo/cpu_util.c:190 hardinfo/cpu_util.c:196 modules/devices/gpu.c:153
 #: modules/devices/pci.c:134 modules/devices/usb.c:136
@@ -70,7 +70,7 @@ msgstr "驱动"
 #: modules/devices/arm/processor.c:256 modules/devices/x86/processor.c:284
 #: modules/devices/x86/processor.c:388 modules/devices/x86/processor.c:524
 msgid "(Not Available)"
-msgstr ""
+msgstr "(不可用)"
 
 #: hardinfo/cpu_util.c:210 hardinfo/cpu_util.c:212
 msgid "Socket"
@@ -100,7 +100,7 @@ msgstr "ID"
 
 #: hardinfo/dmi_util.c:25
 msgid "BIOS Information"
-msgstr ""
+msgstr "BIOS信息"
 
 #: hardinfo/dmi_util.c:26 modules/devices/parisc/processor.c:157
 msgid "System"
@@ -108,11 +108,11 @@ msgstr "系统"
 
 #: hardinfo/dmi_util.c:27
 msgid "Base Board"
-msgstr ""
+msgstr "主板"
 
 #: hardinfo/dmi_util.c:28 modules/devices/dmi.c:53
 msgid "Chassis"
-msgstr ""
+msgstr "机箱"
 
 #: hardinfo/dmi_util.c:29 modules/computer.c:529 modules/computer.c:1000
 #: modules/devices/alpha/processor.c:87 modules/devices/arm/processor.c:341
@@ -127,11 +127,11 @@ msgstr "处理器"
 
 #: hardinfo/dmi_util.c:30
 msgid "Memory Controller"
-msgstr ""
+msgstr "内存控制器"
 
 #: hardinfo/dmi_util.c:31
 msgid "Memory Module"
-msgstr ""
+msgstr "内存模块"
 
 #: hardinfo/dmi_util.c:32 modules/devices/parisc/processor.c:163
 #: modules/devices/x86/processor.c:662
@@ -140,91 +140,91 @@ msgstr "缓存"
 
 #: hardinfo/dmi_util.c:33
 msgid "Port Connector"
-msgstr ""
+msgstr "端口连接器"
 
 #: hardinfo/dmi_util.c:34
 msgid "System Slots"
-msgstr ""
+msgstr "系统插槽"
 
 #: hardinfo/dmi_util.c:35
 msgid "On Board Devices"
-msgstr ""
+msgstr "板载设备"
 
 #: hardinfo/dmi_util.c:36
 msgid "OEM Strings"
-msgstr ""
+msgstr "OEM字符"
 
 #: hardinfo/dmi_util.c:37
 msgid "System Configuration Options"
-msgstr ""
+msgstr "系统配置选项"
 
 #: hardinfo/dmi_util.c:38
 msgid "BIOS Language"
-msgstr ""
+msgstr "BIOS语言"
 
 #: hardinfo/dmi_util.c:39
 msgid "Group Associations"
-msgstr ""
+msgstr "组关联"
 
 #: hardinfo/dmi_util.c:40
 msgid "System Event Log"
-msgstr ""
+msgstr "系统事件日志"
 
 #: hardinfo/dmi_util.c:41
 msgid "Physical Memory Array"
-msgstr ""
+msgstr "物理内存组"
 
 #: hardinfo/dmi_util.c:42
 msgid "Memory Device"
-msgstr ""
+msgstr "内存设备"
 
 #: hardinfo/dmi_util.c:43
 msgid "32-bit Memory Error"
-msgstr ""
+msgstr "32位内存错误"
 
 #: hardinfo/dmi_util.c:44
 msgid "Memory Array Mapped Address"
-msgstr ""
+msgstr "内存阵列映射地址"
 
 #: hardinfo/dmi_util.c:45
 msgid "Memory Device Mapped Address"
-msgstr ""
+msgstr "内存设备映射地址"
 
 #: hardinfo/dmi_util.c:46
 msgid "Built-in Pointing Device"
-msgstr ""
+msgstr "内建指点设备"
 
 #: hardinfo/dmi_util.c:47
 msgid "Portable Battery"
-msgstr ""
+msgstr "移动电源"
 
 #: hardinfo/dmi_util.c:48
 msgid "System Reset"
-msgstr ""
+msgstr "系统重置"
 
 #: hardinfo/dmi_util.c:49
 msgid "Hardware Security"
-msgstr ""
+msgstr "硬件安全性"
 
 #: hardinfo/dmi_util.c:50
 msgid "System Power Controls"
-msgstr ""
+msgstr "系统电源控制"
 
 #: hardinfo/dmi_util.c:51
 msgid "Voltage Probe"
-msgstr ""
+msgstr "电压探测"
 
 #: hardinfo/dmi_util.c:52
 msgid "Cooling Device"
-msgstr ""
+msgstr "散热设备"
 
 #: hardinfo/dmi_util.c:53
 msgid "Temperature Probe"
-msgstr ""
+msgstr "温度探测"
 
 #: hardinfo/dmi_util.c:54
 msgid "Electrical Current Probe"
-msgstr ""
+msgstr "电流探测"
 
 #: hardinfo/dmi_util.c:55
 msgid "Out-of-band Remote Access"
@@ -232,55 +232,55 @@ msgstr ""
 
 #: hardinfo/dmi_util.c:56
 msgid "Boot Integrity Services"
-msgstr ""
+msgstr "启动完整性服务"
 
 #: hardinfo/dmi_util.c:57
 msgid "System Boot"
-msgstr ""
+msgstr "系统启动"
 
 #: hardinfo/dmi_util.c:58
 msgid "64-bit Memory Error"
-msgstr ""
+msgstr "64位内存错误"
 
 #: hardinfo/dmi_util.c:59
 msgid "Management Device"
-msgstr ""
+msgstr "管理设备"
 
 #: hardinfo/dmi_util.c:60
 msgid "Management Device Component"
-msgstr ""
+msgstr "管理设备组件"
 
 #: hardinfo/dmi_util.c:61
 msgid "Management Device Threshold Data"
-msgstr ""
+msgstr "管理设备阈值数据"
 
 #: hardinfo/dmi_util.c:62
 msgid "Memory Channel"
-msgstr ""
+msgstr "内存通道"
 
 #: hardinfo/dmi_util.c:63
 msgid "IPMI Device"
-msgstr ""
+msgstr "IPMI设备"
 
 #: hardinfo/dmi_util.c:64
 msgid "Power Supply"
-msgstr ""
+msgstr "电源供应"
 
 #: hardinfo/dmi_util.c:65
 msgid "Additional Information"
-msgstr ""
+msgstr "附加信息"
 
 #: hardinfo/dmi_util.c:66
 msgid "Onboard Device"
-msgstr ""
+msgstr "板载设备"
 
 #: hardinfo/dmi_util.c:226
 msgid "Invalid chassis type (0)"
-msgstr ""
+msgstr "无效的机箱类型 (0)"
 
 #: hardinfo/dmi_util.c:227 hardinfo/dmi_util.c:228
 msgid "Unknown chassis type"
-msgstr ""
+msgstr "未知机箱设备"
 
 #: hardinfo/dmi_util.c:229
 msgid "Desktop"
@@ -288,7 +288,7 @@ msgstr "桌面"
 
 #: hardinfo/dmi_util.c:230
 msgid "Low-profile Desktop"
-msgstr ""
+msgstr "低端桌面"
 
 #: hardinfo/dmi_util.c:231
 msgid "Pizza Box"
@@ -413,11 +413,11 @@ msgstr ""
 
 #: hardinfo/dmi_util.c:261
 msgid "Mini PC"
-msgstr ""
+msgstr "小型PC"
 
 #: hardinfo/dmi_util.c:262
 msgid "Stick PC"
-msgstr ""
+msgstr "电脑棒"
 
 #: hardinfo/dt_util.c:1179
 msgid "phandle Map"
@@ -471,6 +471,11 @@ msgid ""
 "• Is HardInfo correctly installed?\n"
 "• See if %s and %s exists and you have read permission."
 msgstr ""
+"无法找到运行时数据\n"
+"\n"
+"请确认：\n"
+"Hardinfo是否正确安装\n"
+"查看%s %s 是否存在或你是否有读取权限。"
 
 #: hardinfo/hardinfo.c:77
 #, c-format
@@ -507,11 +512,11 @@ msgstr "版本"
 #: hardinfo/hardinfo.c:129
 #, c-format
 msgid "Unknown benchmark ``%s'' or benchmark.so not loaded"
-msgstr ""
+msgstr "未知的测试``%s'' 或benchmark.so文件未载入  "
 
 #: hardinfo/hardinfo.c:159
 msgid "Don't know what to do. Exiting."
-msgstr ""
+msgstr "不知道干啥，正在退出…"
 
 #: hardinfo/usb_util.c:290 modules/devices/devicetree.c:91
 #: modules/devices/devicetree.c:92 modules/devices/monitors.c:407
@@ -541,7 +546,7 @@ msgstr[0] "%d 分钟"
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] ""
+msgstr[0] "%d 秒"
 
 #: hardinfo/util.c:128
 #, c-format
@@ -587,29 +592,29 @@ msgstr "严重错误"
 
 #: hardinfo/util.c:406
 msgid "creates a report and prints to standard output"
-msgstr ""
+msgstr "生成并打印报告"
 
 #: hardinfo/util.c:412
 msgid "chooses a report format ([text], html)"
-msgstr ""
+msgstr "选择报告文件格式（[text],html）"
 
 #: hardinfo/util.c:418
 msgid "run benchmark; requires benchmark.so to be loaded"
-msgstr ""
+msgstr "运行基准测试：需要benchmark.so文件被载入"
 
 #: hardinfo/util.c:424
 msgid "note attached to benchmark results"
-msgstr ""
+msgstr "添加至基准测试的结果的说明"
 
 #: hardinfo/util.c:430
 msgid "benchmark result format ([short], conf, shell)"
-msgstr ""
+msgstr "基准测试结果保存格式(.conf,shell)"
 
 #: hardinfo/util.c:436
 msgid ""
 "maximum number of benchmark results to include (-1 for no limit, default is "
 "10)"
-msgstr ""
+msgstr "保存基准测试结果数量（-1为无限制，默认为10）"
 
 #: hardinfo/util.c:442
 msgid "lists modules"
@@ -617,15 +622,15 @@ msgstr "模块列表"
 
 #: hardinfo/util.c:448
 msgid "specify module to load"
-msgstr ""
+msgstr "指明加载模块"
 
 #: hardinfo/util.c:454
 msgid "automatically load module dependencies"
-msgstr ""
+msgstr "自动加载模块以来"
 
 #: hardinfo/util.c:461
 msgid "run in XML-RPC server mode"
-msgstr ""
+msgstr "使用XML-RPC服务模式运行"
 
 #: hardinfo/util.c:468
 msgid "shows program version and quit"
@@ -633,15 +638,15 @@ msgstr "显示程序版本并退出"
 
 #: hardinfo/util.c:474
 msgid "do not run benchmarks"
-msgstr ""
+msgstr "不要运行基准测试"
 
 #: hardinfo/util.c:480
 msgid "show all details"
-msgstr ""
+msgstr "显示所有信息"
 
 #: hardinfo/util.c:485
 msgid "- System Profiler and Benchmark tool"
-msgstr ""
+msgstr "系统信息查看及基准测试工具"
 
 #: hardinfo/util.c:495
 #, c-format
@@ -649,27 +654,31 @@ msgid ""
 "Unrecognized arguments.\n"
 "Try ``%s --help'' for more information.\n"
 msgstr ""
+"未知参数。\n"
+"请输入 \"%s --help\" 获取更多信息。\n"
 
 #: hardinfo/util.c:903
 #, c-format
 msgid "Module \"%s\" depends on module \"%s\", load it?"
-msgstr ""
+msgstr "模块 “%s” 依赖于 模块 “%s” , 是否加载？"
 
 #: hardinfo/util.c:926
 #, c-format
 msgid "Module \"%s\" depends on module \"%s\"."
-msgstr ""
+msgstr "模块 “%s” 依赖于 模块 “%s”。"
 
 #: hardinfo/util.c:971
 #, c-format
 msgid "No module could be loaded. Check permissions on \"%s\" and try again."
-msgstr ""
+msgstr "无法加载任何模块，请检查 “%s” 的权限并重试。"
 
 #: hardinfo/util.c:975
 msgid ""
 "No module could be loaded. Please use hardinfo -l to list all available "
 "modules and try again with a valid module list."
 msgstr ""
+"无法加载任何模块，请使用hardinfo -l 列出所有可用的模块并使用合法的模块列表重"
+"试。"
 
 #: hardinfo/util.c:1030
 #, c-format
@@ -698,11 +707,13 @@ msgid ""
 "Written by %s\n"
 "Licensed under %s"
 msgstr ""
+"由 %s 所写\n"
+"版权所有 %s"
 
 #: shell/callbacks.c:142
 #, c-format
 msgid "No about information is associated with the %s module."
-msgstr ""
+msgstr "没有于模块%s相关联的关于信息。"
 
 #: shell/callbacks.c:158
 msgid "Author:"
@@ -714,11 +725,11 @@ msgstr "贡献者："
 
 #: shell/callbacks.c:167
 msgid "Based on work by:"
-msgstr ""
+msgstr "基于下列人的工作："
 
 #: shell/callbacks.c:168
 msgid "MD5 implementation by Colin Plumb (see md5.c for details)"
-msgstr ""
+msgstr "由Colin Plumb 实现的MD5支持 (查看 md5.c 获取更多细节)"
 
 #: shell/callbacks.c:169
 msgid "SHA1 implementation by Steve Reid (see sha1.c for details)"
@@ -814,7 +825,7 @@ msgstr "生成报表(_R)"
 
 #: shell/menu.c:56
 msgid "_Network Updater..."
-msgstr ""
+msgstr "网络升级(_N)"
 
 #: shell/menu.c:61
 msgid "_Open..."
@@ -878,7 +889,7 @@ msgstr "保存(_S)"
 
 #: shell/report.c:943
 msgid "Cannot create ReportContext. Programming bug?"
-msgstr ""
+msgstr "无法生成报告内容。编程错误？"
 
 #: shell/report.c:962
 msgid "Open the report with your web browser?"
@@ -913,6 +924,8 @@ msgid ""
 "<big><b>Generate Report</b></big>\n"
 "Please choose the information that you wish to view in your report:"
 msgstr ""
+"<big><b>报告生成</b></big>\n"
+"请选择在报告中你要查看的信息。"
 
 #: shell/report.c:1207
 msgid "Select _None"
@@ -951,8 +964,8 @@ msgstr "正在更新..."
 #: shell/syncmanager.c:69
 msgid ""
 "<big><b>Synchronize with Central Database</b></big>\n"
-"The following information may be synchronized\nwith the HardInfo central "
-"database."
+"The following information may be synchronized\n"
+"with the HardInfo central database."
 msgstr ""
 
 #: shell/syncmanager.c:72
@@ -1296,7 +1309,9 @@ msgid "Benchmarking: <b>%s</b>."
 msgstr ""
 
 #: modules/benchmark.c:527
-msgid "Benchmarking. Please do not move your mouse\nor press any keys."
+msgid ""
+"Benchmarking. Please do not move your mouse\n"
+"or press any keys."
 msgstr ""
 
 #: modules/benchmark.c:530
@@ -2096,7 +2111,7 @@ msgstr "GNOME Shell "
 
 #: modules/computer/os.c:124 modules/computer/os.c:127
 msgid "Version: "
-msgstr "版本："
+msgstr "版本： "
 
 #: modules/computer/os.c:146 modules/computer/os.c:149
 msgid "MATE Desktop Environment "
@@ -2200,7 +2215,7 @@ msgstr "模型"
 
 #: modules/devices/alpha/processor.c:89
 msgid "Platform String"
-msgstr ""
+msgstr "平台字符串"
 
 #: modules/devices/alpha/processor.c:90 modules/devices/arm/processor.c:345
 #: modules/devices/ia64/processor.c:167 modules/devices/m68k/processor.c:87
@@ -2419,7 +2434,7 @@ msgstr ""
 
 #: modules/devices/arm/processor.c:342
 msgid "Linux Name"
-msgstr ""
+msgstr "Linux名称"
 
 #: modules/devices/arm/processor.c:343
 msgid "Decoded Name"
@@ -2529,7 +2544,7 @@ msgstr "图形处理器"
 #: modules/devices.c:101 modules/devices/monitors.c:445
 #: modules/devices/monitors.c:492
 msgid "Monitors"
-msgstr ""
+msgstr "显示器"
 
 #: modules/devices.c:102 modules/devices/pci.c:163
 msgid "PCI Devices"
@@ -2541,7 +2556,7 @@ msgstr "USB 设备"
 
 #: modules/devices.c:104
 msgid "Firmware"
-msgstr ""
+msgstr "固件"
 
 #: modules/devices.c:106
 msgid "Battery"
@@ -2553,11 +2568,11 @@ msgstr "传感器"
 
 #: modules/devices.c:110
 msgid "System DMI"
-msgstr ""
+msgstr "系统插槽"
 
 #: modules/devices.c:111
 msgid "Memory Devices"
-msgstr ""
+msgstr "内存设备"
 
 #: modules/devices.c:113 modules/devices.c:115
 msgid "Device Tree"
@@ -2571,13 +2586,13 @@ msgstr "资源"
 #, c-format
 msgid "%d physical processor"
 msgid_plural "%d physical processors"
-msgstr[0] ""
+msgstr[0] "%d 物理CPU"
 
 #: modules/devices.c:178
 #, c-format
 msgid "%d core"
 msgid_plural "%d cores"
-msgstr[0] ""
+msgstr[0] "%d 核心"
 
 #: modules/devices.c:179
 #, c-format
@@ -2589,7 +2604,7 @@ msgstr[0] "%d 线程"
 #: modules/devices.c:180
 #, c-format
 msgid "%s; %s; %s"
-msgstr ""
+msgstr "%s; %s; %s"
 
 #: modules/devices.c:726
 msgid "Sensor"
@@ -2601,25 +2616,27 @@ msgstr "设备"
 
 #: modules/devices.c:785
 msgid "Update PCI ID listing"
-msgstr ""
+msgstr "更新PCIID"
 
 #: modules/devices.c:797
 msgid "Update CPU feature database"
-msgstr ""
+msgstr "更新CPU特性数据库"
 
 #: modules/devices.c:825
 msgid "Gathers information about hardware devices"
-msgstr ""
+msgstr "获取硬件设备信息"
 
 #: modules/devices.c:844
 msgid "Resource information requires superuser privileges"
-msgstr ""
+msgstr "资源信息需要管理员权限"
 
 #: modules/devices.c:850
 msgid ""
 "Any NVMe storage devices present are not listed.\n"
 "<b><i>udisksd</i></b> is required for NVMe devices."
 msgstr ""
+"未列出NVME设备信息。\n"
+"需要udisksd模块以查看NVME信息。"
 
 #: modules/devices/devicetree.c:52
 msgid "Properties"
@@ -2627,7 +2644,7 @@ msgstr "属性"
 
 #: modules/devices/devicetree.c:53
 msgid "Children"
-msgstr "子女"
+msgstr "子"
 
 #: modules/devices/devicetree.c:89
 msgid "Node"
@@ -2652,11 +2669,11 @@ msgstr "平台"
 #: modules/devices/devicetree.c:146 modules/devices/devicetree.c:211
 #: modules/devices/gpu.c:231
 msgid "Compatible"
-msgstr ""
+msgstr "兼容"
 
 #: modules/devices/devicetree.c:147
 msgid "GPU-compatible"
-msgstr ""
+msgstr "GPU兼容"
 
 #: modules/devices/devicetree.c:162
 msgid "Raspberry Pi or Compatible"
@@ -2687,7 +2704,7 @@ msgstr "消息"
 
 #: modules/devices/devicetree/pmac_data.c:78
 msgid "Apple Power Macintosh"
-msgstr ""
+msgstr "苹果Power Macintosh"
 
 #: modules/devices/devicetree/pmac_data.c:83
 msgid "Detected as"
@@ -2703,7 +2720,7 @@ msgstr "L2 缓存"
 
 #: modules/devices/devicetree/pmac_data.c:86
 msgid "PMAC Generation"
-msgstr ""
+msgstr "PMAC制程"
 
 #: modules/devices/devicetree/rpi_data.c:160
 #: modules/devices/devicetree/rpi_data.c:161
@@ -2728,11 +2745,11 @@ msgstr "制造商"
 
 #: modules/devices/devicetree/rpi_data.c:166
 msgid "SOC (spec)"
-msgstr ""
+msgstr "单系统芯片(SOC)参数"
 
 #: modules/devices/devicetree/rpi_data.c:167
 msgid "Memory (spec)"
-msgstr ""
+msgstr "内存参数"
 
 #: modules/devices/devicetree/rpi_data.c:169
 msgid "Permanent overvolt bit"
@@ -4090,7 +4107,7 @@ msgstr "设备版本"
 
 #: modules/devices/usb.c:221
 msgid "No USB devices found."
-msgstr "没找到 USB 设备"
+msgstr "没找到 USB 设备。"
 
 #: modules/devices/x86/processor.c:149
 msgid "Cache information not available=\n"
@@ -5638,7 +5655,7 @@ msgstr "MAC 地址"
 
 #: modules/network.c:319
 msgid "SAMBA"
-msgstr ""
+msgstr "Samba/windows共享"
 
 #: modules/network.c:320
 msgid "NFS"
@@ -5678,7 +5695,7 @@ msgstr "IP 路由表"
 
 #: modules/network.c:380
 msgid "Destination/Gateway"
-msgstr ""
+msgstr "目的地/网关"
 
 #: modules/network.c:380 modules/network/net.c:473
 msgid "Mask"
@@ -5690,7 +5707,7 @@ msgstr "网络"
 
 #: modules/network.c:441
 msgid "Gathers information about this computer's network connection"
-msgstr ""
+msgstr "获取计算机网络连接信息"
 
 #: modules/network/net.c:72
 msgctxt "wi-op-mode"
@@ -5860,7 +5877,7 @@ msgstr "未找到"
 
 #: modules/network/net.c:409
 msgid "Network Adapter Properties"
-msgstr ""
+msgstr "网络适配器属性"
 
 #: modules/network/net.c:410
 msgid "Interface Type"
@@ -5876,7 +5893,7 @@ msgstr "MTU"
 
 #: modules/network/net.c:416
 msgid "Transfer Details"
-msgstr ""
+msgstr "传输细节"
 
 #: modules/network/net.c:417
 msgid "Bytes Received"
@@ -5901,7 +5918,7 @@ msgstr "无线属性"
 
 #: modules/network/net.c:450
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "网络名称（SSID）"
 
 #: modules/network/net.c:451
 msgid "Bit Rate"

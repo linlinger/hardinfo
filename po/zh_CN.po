@@ -1037,79 +1037,83 @@ msgstr "同步(_S)"
 
 #: modules/benchmark/benches.c:82
 msgid "CPU Blowfish (Single-thread)"
-msgstr ""
+msgstr "CPU Blowfish测试 （单线程）"
 
 #: modules/benchmark/benches.c:84
 msgid "CPU Blowfish (Multi-thread)"
-msgstr ""
+msgstr "CPU Blowfish测试 （多线程）"
 
 #: modules/benchmark/benches.c:86
 msgid "CPU Blowfish (Multi-core)"
-msgstr ""
+msgstr "CPU Blowfish测试 （多核心）"
 
 #: modules/benchmark/benches.c:88
 msgid "CPU Zlib"
-msgstr ""
+msgstr "CPU Zlib整数压缩"
 
 #: modules/benchmark/benches.c:90
 msgid "CPU CryptoHash"
-msgstr ""
+msgstr "CPU哈希加密测试"
 
 #: modules/benchmark/benches.c:92
 msgid "CPU Fibonacci"
-msgstr ""
+msgstr "CPU斐波那契测试"
 
 #: modules/benchmark/benches.c:94
 msgid "CPU N-Queens"
-msgstr ""
+msgstr "CPU国际象棋测试"
 
 #: modules/benchmark/benches.c:96
 msgid "FPU FFT"
-msgstr ""
+msgstr "FPU FFT运算"
 
 #: modules/benchmark/benches.c:98
 msgid "FPU Raytracing"
-msgstr ""
+msgstr "FPU光线追踪"
 
 #: modules/benchmark/benches.c:100
 msgid "SysBench CPU (Single-thread)"
-msgstr ""
+msgstr "CPU测试（单线程）"
 
 #: modules/benchmark/benches.c:102
 msgid "SysBench CPU (Multi-thread)"
-msgstr ""
+msgstr "CPU测试（多线程）"
 
 #: modules/benchmark/benches.c:104
 msgid "SysBench CPU (Four threads)"
-msgstr ""
+msgstr "CPU测试（四线程）"
 
 #: modules/benchmark/benches.c:106
 msgid "SysBench Memory (Single-thread)"
-msgstr ""
+msgstr "内存测试（单线程）"
 
 #: modules/benchmark/benches.c:108
 msgid "SysBench Memory (Two threads)"
-msgstr ""
+msgstr "内存测试（双线程）"
 
 #: modules/benchmark/benches.c:110
 msgid "SysBench Memory"
-msgstr ""
+msgstr "内存测试"
 
 #: modules/benchmark/benches.c:113
 msgid "GPU Drawing"
-msgstr ""
+msgstr "GPU绘制"
 
 #: modules/benchmark/benches.c:126
 msgid ""
 "Alexey Kopytov's <i><b>sysbench</b></i> is required.\n"
 "Results in events/second. Higher is better."
 msgstr ""
+"Alexey Kopytov's <i><b>sysbench</b></i> 为先决条件.\n"
+"结果以秒为单位，越高越好"
 
 #: modules/benchmark/benches.c:132
 msgid ""
 "Alexey Kopytov's <i><b>sysbench</b></i> is required.\n"
 "Results in MiB/second. Higher is better."
 msgstr ""
+"Alexey Kopytov's <i><b>sysbench</b></i> 为先决条件.\n"
+"结果以MB/秒为单位，越高越好"
 
 #: modules/benchmark/benches.c:136
 msgid "Results in MiB/second. Higher is better."
@@ -1117,7 +1121,7 @@ msgstr "结果以 MiB/秒为单位，越大越好。"
 
 #: modules/benchmark/benches.c:143
 msgid "Results in HIMarks. Higher is better."
-msgstr ""
+msgstr "结果为HIMarks，越高越好"
 
 #: modules/benchmark/benches.c:149
 msgid "Results in seconds. Lower is better."
@@ -1184,11 +1188,11 @@ msgstr "kiB"
 #: modules/benchmark/bench_results.c:403 modules/benchmark/bench_results.c:453
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d-比特"
 
 #: modules/benchmark/bench_results.c:422 modules/benchmark/bench_results.c:477
 msgid "Benchmark Result"
-msgstr ""
+msgstr "测试结果"
 
 #: modules/benchmark/bench_results.c:423 modules/benchmark/bench_results.c:479
 msgid "Threads"
@@ -1196,11 +1200,11 @@ msgstr "线程"
 
 #: modules/benchmark/bench_results.c:424 modules/benchmark/bench_results.c:481
 msgid "Elapsed Time"
-msgstr ""
+msgstr "消耗时间"
 
 #: modules/benchmark/bench_results.c:424 modules/benchmark/bench_results.c:481
 msgid "seconds"
-msgstr ""
+msgstr "秒"
 
 #: modules/benchmark/bench_results.c:425 modules/computer/languages.c:101
 #: modules/devices/arm/processor.c:355 modules/devices/gpu.c:147
@@ -1211,11 +1215,11 @@ msgstr "修订版本"
 
 #: modules/benchmark/bench_results.c:426 modules/benchmark/bench_results.c:482
 msgid "Extra Information"
-msgstr ""
+msgstr "附加信息"
 
 #: modules/benchmark/bench_results.c:427 modules/benchmark/bench_results.c:483
 msgid "User Note"
-msgstr ""
+msgstr "用户注记"
 
 #: modules/benchmark/bench_results.c:429 modules/benchmark/bench_results.c:485
 msgid "Note"
@@ -1226,11 +1230,12 @@ msgid ""
 "This result is from an old version of HardInfo. Results might not be "
 "comparable to current version. Some details are missing."
 msgstr ""
+"此结果来自于旧版本的Hardinfo。结果不一定具有可比性并且部分细节存在丢失现象。"
 
 #: modules/benchmark/bench_results.c:431 modules/benchmark/bench_results.c:487
 #: modules/devices/devicetree/pmac_data.c:81 modules/devices/sh/processor.c:85
 msgid "Machine"
-msgstr ""
+msgstr "机器"
 
 #: modules/benchmark/bench_results.c:432 modules/benchmark/bench_results.c:488
 #: modules/devices/devicetree.c:208 modules/devices/dmi.c:47
@@ -1256,7 +1261,7 @@ msgstr ""
 
 #: modules/benchmark/bench_results.c:437 modules/benchmark/bench_results.c:493
 msgid "GPU"
-msgstr "GPU"
+msgstr "图形处理器"
 
 #: modules/benchmark/bench_results.c:438 modules/benchmark/bench_results.c:494
 #: modules/computer.c:542
@@ -1271,7 +1276,7 @@ msgstr "内存"
 
 #: modules/benchmark/bench_results.c:440 modules/benchmark/bench_results.c:496
 msgid "Pointer Size"
-msgstr ""
+msgstr "指针大小"
 
 #: modules/benchmark/bench_results.c:478
 msgid "Benchmark"
@@ -1306,13 +1311,14 @@ msgstr "CPU"
 #: modules/benchmark.c:513
 #, c-format
 msgid "Benchmarking: <b>%s</b>."
-msgstr ""
+msgstr "正在测试： <b>%s</b>。"
 
 #: modules/benchmark.c:527
 msgid ""
 "Benchmarking. Please do not move your mouse\n"
 "or press any keys."
 msgstr ""
+"测试进行中。请不要移动鼠标，按下键盘按键或电脑按键"
 
 #: modules/benchmark.c:530
 msgid "Cancel"
@@ -1320,19 +1326,19 @@ msgstr "取消"
 
 #: modules/benchmark.c:601
 msgid "Benchmarks"
-msgstr ""
+msgstr "基准测试"
 
 #: modules/benchmark.c:619
 msgid "Perform tasks and compare with other systems"
-msgstr ""
+msgstr "运行特定任务并与其他系统相比较"
 
 #: modules/benchmark.c:730
 msgid "Send benchmark results"
-msgstr ""
+msgstr "发送基准测试结果"
 
 #: modules/benchmark.c:735
 msgid "Receive benchmark results"
-msgstr ""
+msgstr "接收基准测试结果"
 
 #: modules/computer/alsa.c:26 modules/computer.c:546
 msgid "Audio Devices"
@@ -1352,7 +1358,7 @@ msgstr "操作系统"
 
 #: modules/computer.c:82
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #: modules/computer.c:83 modules/devices/gpu.c:155 modules/devices/pci.c:136
 msgid "Kernel Modules"
@@ -1368,7 +1374,7 @@ msgstr "语言"
 
 #: modules/computer.c:86
 msgid "Memory Usage"
-msgstr ""
+msgstr "内存用量"
 
 #: modules/computer.c:87
 msgid "Filesystems"
@@ -1397,7 +1403,7 @@ msgstr "组"
 #: modules/computer.c:125
 #, c-format
 msgid "%dMB (%dMB used)"
-msgstr ""
+msgstr "%dMB (%dMB 已使用)"
 
 #: modules/computer.c:127 modules/computer.c:594
 msgid "Uptime"
@@ -1421,7 +1427,7 @@ msgstr "Gambas3 (gbr3)"
 
 #: modules/computer.c:249
 msgid "Python (default)"
-msgstr ""
+msgstr "Python （默认版本）"
 
 #: modules/computer.c:250
 msgid "Python2"
@@ -1461,7 +1467,7 @@ msgstr ""
 
 #: modules/computer.c:259
 msgid "awk"
-msgstr ""
+msgstr "awk"
 
 #: modules/computer.c:260
 msgid "Compilers"
@@ -1525,7 +1531,7 @@ msgstr ""
 
 #: modules/computer.c:275
 msgid "GDB"
-msgstr "GDB"
+msgstr "GDB 调试工具"
 
 #: modules/computer.c:276
 msgid "LLDB"
@@ -1561,7 +1567,7 @@ msgstr ""
 
 #: modules/computer.c:324
 msgid "Not found"
-msgstr "找不到"
+msgstr "未找到"
 
 #: modules/computer.c:329
 #, c-format
@@ -1818,7 +1824,7 @@ msgstr "X 服务器"
 #: modules/devices/pci.c:95 modules/devices/usb.c:168
 #: modules/devices/x86/processor.c:653
 msgid "Vendor"
-msgstr "销售者"
+msgstr "制造商"
 
 #: modules/computer.c:744
 msgid "Release Number"
@@ -2472,7 +2478,7 @@ msgstr "容量"
 
 #: modules/devices/arm/processor.c:468
 msgid "SOC/Package"
-msgstr ""
+msgstr "单芯片系统/封装"
 
 #: modules/devices/arm/processor.c:472 modules/devices/x86/processor.c:751
 msgid "Logical CPU Config"
@@ -2480,7 +2486,7 @@ msgstr "逻辑 CPU 配置"
 
 #: modules/devices/arm/processor.c:489
 msgid "SOC/Package Information"
-msgstr ""
+msgstr "SOC/封装信息"
 
 #: modules/devices/battery.c:178
 #, c-format
@@ -2494,6 +2500,14 @@ msgid ""
 "Model Number=%s\n"
 "Serial Number=%s\n"
 msgstr ""
+"\n"
+"[电池: %s]\n"
+"状态=%s (load: %s)\n"
+"额定容量=%s / %s (%.2f%%)\n"
+"电池技术=%s (%s)\n"
+"制造商=%s\n"
+"型号=%s\n"
+"序列号=%s\n"
 
 #: modules/devices/battery.c:255
 #, c-format
@@ -2507,6 +2521,14 @@ msgid ""
 "Model Number=%s\n"
 "Serial Number=%s\n"
 msgstr ""
+"\n"
+"[电池: %s]\n"
+"状态=%s\n"
+"额定容量=%s / %s\n"
+"电池技术=%s\n"
+"制造商=%s\n"
+"型号=%s\n"
+"序列号=%s\n"
 
 #: modules/devices/battery.c:343
 #, c-format
@@ -2519,6 +2541,13 @@ msgid ""
 "APM driver version=%s\n"
 "APM BIOS version=%s\n"
 msgstr ""
+"\n"
+"[电池 (APM)]\n"
+"百分比=%d%%\n"
+"剩余电量=%s of %s\n"
+"使用中=%s\n"
+"APM 驱动版本=%s\n"
+"APM BIOS 版本=%s\n"
 
 #: modules/devices/battery.c:355
 #, c-format
@@ -2530,12 +2559,20 @@ msgid ""
 "APM driver version=%s\n"
 "APM BIOS version=%s\n"
 msgstr ""
+"\n"
+"[电池 (APM)]\n"
+"百分比=%d%%\n"
+"正在使用=%s\n"
+"APM 驱动版本=%s\n"
+"APM BIOS版本=%s\n"
 
 #: modules/devices/battery.c:382
 msgid ""
 "[No batteries]\n"
 "No batteries found on this system=\n"
 msgstr ""
+"[无电池]\n"
+"未在此系统中检测到电池\n"
 
 #: modules/devices.c:100
 msgid "Graphics Processors"
@@ -2785,93 +2822,93 @@ msgstr "BIOS"
 
 #: modules/devices/dmi.c:52 modules/devices/dmi.c:58
 msgid "Asset Tag"
-msgstr ""
+msgstr "资产标签"
 
 #: modules/devices/dmi.c:115 modules/devices/dmi_memory.c:882
 #: modules/devices/x86/processor.c:694
 msgid "(Not available; Perhaps try running HardInfo as root.)"
-msgstr ""
+msgstr "(不可用。请以root权限运行HardInfo重试)"
 
 #: modules/devices/dmi.c:156
 msgid "DMI Unavailable"
-msgstr ""
+msgstr "桌面管理接口不可用"
 
 #: modules/devices/dmi.c:158
 msgid "DMI is not avaliable. Perhaps this platform does not provide DMI."
-msgstr ""
+msgstr "桌面管理接口不可用。或许此平台未提供此接口"
 
 #: modules/devices/dmi.c:159
 msgid "DMI is not available; Perhaps try running HardInfo as root."
-msgstr ""
+msgstr "DMI不可用，请以root权限运行hardinfo重试"
 
 #: modules/devices/dmi_memory.c:598
 msgid "Serial Presence Detect (SPD)"
-msgstr ""
+msgstr "串行存在检测"
 
 #: modules/devices/dmi_memory.c:601
 msgid "SPD Revision"
-msgstr ""
+msgstr "SPD修订版本号"
 
 #: modules/devices/dmi_memory.c:602 modules/devices/dmi_memory.c:748
 msgid "Form Factor"
-msgstr ""
+msgstr "构成因素"
 
 #: modules/devices/dmi_memory.c:604
 msgid "Module Vendor"
-msgstr ""
+msgstr "模块厂商"
 
 #: modules/devices/dmi_memory.c:606
 msgid "DRAM Vendor"
-msgstr ""
+msgstr "DRAM厂商"
 
 #: modules/devices/dmi_memory.c:608 modules/devices/dmi_memory.c:753
 msgid "Part Number"
-msgstr ""
+msgstr "部件数"
 
 #: modules/devices/dmi_memory.c:610
 msgid "Manufacturing Date (Week / Year)"
-msgstr ""
+msgstr "生产日期（周/年）"
 
 #: modules/devices/dmi_memory.c:644 modules/devices/dmi_memory.c:879
 msgid "Memory Device List"
-msgstr ""
+msgstr "内存设备列表"
 
 #: modules/devices/dmi_memory.c:686
 msgid "Memory Array"
-msgstr ""
+msgstr "内存阵列"
 
 #: modules/devices/dmi_memory.c:687 modules/devices/x86/processor.c:713
 msgid "DMI Handle"
-msgstr ""
+msgstr "桌面管理接口控制"
 
 #: modules/devices/dmi_memory.c:688 modules/devices/dmi_memory.c:746
 #: modules/devices/dmi_memory.c:784 modules/devices/dmi_memory.c:893
 msgid "Locator"
-msgstr ""
+msgstr "定位"
 
 #: modules/devices/dmi_memory.c:689
 msgid "Use"
-msgstr ""
+msgstr "使用量"
 
 #: modules/devices/dmi_memory.c:690
 msgid "Error Correction Type"
-msgstr ""
+msgstr "错误纠正类型"
 
 #: modules/devices/dmi_memory.c:691
 msgid "Size (Present / Max)"
-msgstr ""
+msgstr "容量（现有/最大）"
 
 #: modules/devices/dmi_memory.c:692
 msgid "Devices (Populated / Sockets)"
-msgstr ""
+msgstr "设备（已有/最大）"
 
 #: modules/devices/dmi_memory.c:693 modules/devices/dmi_memory.c:827
 msgid "Types Present"
-msgstr ""
+msgstr "现有类型"
 
 #: modules/devices/dmi_memory.c:744 modules/devices/dmi_memory.c:782
 msgid "Memory Socket"
-msgstr ""
+msgstr "内存插槽"
 
 #: modules/devices/dmi_memory.c:745 modules/devices/dmi_memory.c:783
 msgid "DMI Handles (Array, Socket)"
@@ -3035,19 +3072,19 @@ msgstr ""
 
 #: modules/devices/firmware.c:90
 msgid "Extra metadata can be exposed about this device"
-msgstr ""
+msgstr "此设备可以暴露出更多的元数据"
 
 #: modules/devices/firmware.c:104
 msgid "DeviceId"
-msgstr ""
+msgstr " 设备ID"
 
 #: modules/devices/firmware.c:104
 msgid "Guid"
-msgstr ""
+msgstr "GUID"
 
 #: modules/devices/firmware.c:104
 msgid "Plugin"
-msgstr ""
+msgstr "插件"
 
 #: modules/devices/firmware.c:104 modules/network.c:380
 msgid "Flags"
@@ -3055,27 +3092,27 @@ msgstr "标志"
 
 #: modules/devices/firmware.c:105
 msgid "VendorId"
-msgstr ""
+msgstr "版本号"
 
 #: modules/devices/firmware.c:105
 msgid "VersionBootloader"
-msgstr ""
+msgstr "启动器版本"
 
 #: modules/devices/firmware.c:106
 msgid "Icon"
-msgstr ""
+msgstr "图标"
 
 #: modules/devices/firmware.c:106
 msgid "InstallDuration"
-msgstr ""
+msgstr "安装时间"
 
 #: modules/devices/firmware.c:106
 msgid "Created"
-msgstr ""
+msgstr "创建于"
 
 #: modules/devices/firmware.c:245
 msgid "Firmware List"
-msgstr ""
+msgstr "固件列表"
 
 #: modules/devices/firmware.c:258
 msgid "Requires the <i><b>fwupdmgr</b></i> utility."
@@ -3083,23 +3120,23 @@ msgstr ""
 
 #: modules/devices/gpu.c:84 modules/devices/pci.c:97
 msgid "SVendor"
-msgstr ""
+msgstr "设备制造商"
 
 #: modules/devices/gpu.c:85 modules/devices/pci.c:98
 msgid "SDevice"
-msgstr ""
+msgstr "设备"
 
 #: modules/devices/gpu.c:93 modules/devices/pci.c:108
 msgid "PCI Express"
-msgstr ""
+msgstr "PCI-E"
 
 #: modules/devices/gpu.c:94 modules/devices/pci.c:110
 msgid "Maximum Link Width"
-msgstr ""
+msgstr "最大链接带宽"
 
 #: modules/devices/gpu.c:95 modules/devices/pci.c:112
 msgid "Maximum Link Speed"
-msgstr ""
+msgstr "最大链路速度"
 
 #: modules/devices/gpu.c:95 modules/devices/pci.c:111 modules/devices/pci.c:112
 msgid "GT/s"
@@ -3142,23 +3179,23 @@ msgstr "使用中"
 
 #: modules/devices/gpu.c:185
 msgid "Unknown integrated GPU"
-msgstr ""
+msgstr "未知的集成GPU"
 
 #: modules/devices/gpu.c:191
 msgid "clock-frequency property"
-msgstr ""
+msgstr "时钟频率属性"
 
 #: modules/devices/gpu.c:192
 msgid "Operating Points (OPPv1)"
-msgstr ""
+msgstr "操作浮点数 (OPPv1)"
 
 #: modules/devices/gpu.c:193
 msgid "Operating Points (OPPv2)"
-msgstr ""
+msgstr "操作浮点数 (OPP2)"
 
 #: modules/devices/gpu.c:229
 msgid "Device Tree Node"
-msgstr ""
+msgstr "设备树模式"
 
 #: modules/devices/gpu.c:232 modules/devices/monitors.c:471
 #: modules/network/net.c:454
@@ -3167,23 +3204,23 @@ msgstr "状态"
 
 #: modules/devices/gpu.c:249
 msgid "GPUs"
-msgstr ""
+msgstr "图形处理器"
 
 #: modules/devices/gpu.c:273
 msgid "No GPU devices found"
-msgstr ""
+msgstr "无图形处理器"
 
 #: modules/devices/ia64/processor.c:108
 msgid "IA64 Processor"
-msgstr ""
+msgstr "IA64处理器"
 
 #: modules/devices/ia64/processor.c:163
 msgid "Architecture Revision"
-msgstr ""
+msgstr "架构修订"
 
 #: modules/devices/ia64/processor.c:170
 msgid "CPU regs"
-msgstr ""
+msgstr "CPU regs"
 
 #: modules/devices/ia64/processor.c:171
 msgid "Features"
@@ -3221,20 +3258,20 @@ msgstr "系统类型"
 #: modules/devices/monitors.c:29 modules/devices/monitors.c:253
 #: modules/devices/monitors.c:346 modules/devices/spd-decode.c:595
 msgid "(Unspecified)"
-msgstr ""
+msgstr "（未指定）"
 
 #: modules/devices/monitors.c:228
 #, c-format
 msgid "Week %d of %d"
-msgstr ""
+msgstr "%d 第 %d周"
 
 #: modules/devices/monitors.c:238
 msgid "Ok"
-msgstr ""
+msgstr "好"
 
 #: modules/devices/monitors.c:238
 msgid "Fail"
-msgstr ""
+msgstr "失败"
 
 #: modules/devices/monitors.c:266 modules/devices/monitors.c:274
 #: modules/devices/monitors.c:282 modules/devices/monitors.c:293
@@ -3242,15 +3279,15 @@ msgstr ""
 #: modules/devices/monitors.c:316 modules/devices/monitors.c:324
 #: modules/devices/monitors.c:332 modules/devices/monitors.c:338
 msgid "(Empty List)"
-msgstr ""
+msgstr "（空列表）"
 
 #: modules/devices/monitors.c:390
 msgid "Signal Type"
-msgstr ""
+msgstr "信号类型"
 
 #: modules/devices/monitors.c:390
 msgid "Digital"
-msgstr ""
+msgstr "数字"
 
 #: modules/devices/monitors.c:390
 msgid "Analog"
@@ -3271,11 +3308,11 @@ msgstr ""
 
 #: modules/devices/monitors.c:394
 msgid "Output (Max)"
-msgstr ""
+msgstr "输出（最大）"
 
 #: modules/devices/monitors.c:397
 msgid "EDID Device"
-msgstr ""
+msgstr "EDID设备"
 
 #: modules/devices/monitors.c:401
 msgid "Serial"
@@ -3283,7 +3320,7 @@ msgstr ""
 
 #: modules/devices/monitors.c:402
 msgid "Manufacture Date"
-msgstr ""
+msgstr "生产日期"
 
 #: modules/devices/monitors.c:403
 msgid "EDID Meta"
@@ -3291,31 +3328,31 @@ msgstr ""
 
 #: modules/devices/monitors.c:404
 msgid "Data Size"
-msgstr ""
+msgstr "数据大小"
 
 #: modules/devices/monitors.c:404
 msgid "bytes"
-msgstr ""
+msgstr "比特"
 
 #: modules/devices/monitors.c:406
 msgid "Extension Blocks"
-msgstr ""
+msgstr "扩展块"
 
 #: modules/devices/monitors.c:407
 msgid "Extended to"
-msgstr ""
+msgstr "扩展至"
 
 #: modules/devices/monitors.c:408
 msgid "Checksum"
-msgstr ""
+msgstr "校验和"
 
 #: modules/devices/monitors.c:409
 msgid "EDID Descriptors"
-msgstr ""
+msgstr "EDID描述符"
 
 #: modules/devices/monitors.c:410
 msgid "Detailed Timing Descriptors (DTD)"
-msgstr ""
+msgstr "详细时间描述符（DTD）"
 
 #: modules/devices/monitors.c:411
 msgid "Established Timings Bitmap (ETB)"
@@ -3323,7 +3360,7 @@ msgstr ""
 
 #: modules/devices/monitors.c:412
 msgid "Standard Timings (STD)"
-msgstr ""
+msgstr "标准时（STD）"
 
 #: modules/devices/monitors.c:413
 msgid "E-EDID Extension Blocks"
@@ -3924,11 +3961,11 @@ msgstr "电源管理"
 
 #: modules/devices/storage.c:211
 msgid "Advanced Power Management"
-msgstr ""
+msgstr "高级电源管理"
 
 #: modules/devices/storage.c:214
 msgid "Automatic Acoustic Management"
-msgstr ""
+msgstr "自动声学管理"
 
 #: modules/devices/storage.c:217
 #, c-format
@@ -3936,12 +3973,14 @@ msgid ""
 "[Drive Information]\n"
 "Model=%s\n"
 msgstr ""
+"[硬盘信息]\n"
+"型号=%s\n"
 
 #: modules/devices/storage.c:221 modules/devices/storage.c:449
 #: modules/devices/storage.c:648
 #, c-format
 msgid "Vendor=%s\n"
-msgstr ""
+msgstr "厂商=%s\n"
 
 #: modules/devices/storage.c:226
 #, c-format
@@ -3952,11 +3991,16 @@ msgid ""
 "Size=%s\n"
 "Features=%s\n"
 msgstr ""
+"修订版本=%s\n"
+"块设备=%s\n"
+"序列号=%s\n"
+"大小=%s\n"
+"特性=%s\n"
 
 #: modules/devices/storage.c:240
 #, c-format
 msgid "Rotation Rate=%d RPM\n"
-msgstr ""
+msgstr "转速=%d RPM \n"
 
 #: modules/devices/storage.c:243
 #, c-format
@@ -3964,11 +4008,13 @@ msgid ""
 "Media=%s\n"
 "Media compatibility=%s\n"
 msgstr ""
+"媒体=%s\n"
+"媒体兼容性=%s\n"
 
 #: modules/devices/storage.c:250
 #, c-format
 msgid "Connection bus=%s\n"
-msgstr ""
+msgstr "连接总线=%s \n"
 
 #: modules/devices/storage.c:253
 #, c-format
@@ -3979,25 +4025,32 @@ msgid ""
 "Power on time=%d days %d hours\n"
 "Temperature=%d°C\n"
 msgstr ""
+"[自我监测(S.M.A.R.T.)]\n"
+"状态=%s\n"
+"坏扇区=%ld\n"
+"通电时间=%d 天 %d 小时\n"
+"温度=%d°C\n"
 
 #: modules/devices/storage.c:259
 msgid "Failing"
-msgstr ""
+msgstr "存在错误"
 
 #: modules/devices/storage.c:259
 msgid "OK"
-msgstr ""
+msgstr "良好"
 
 #: modules/devices/storage.c:265
 msgid ""
 "[S.M.A.R.T. Attributes]\n"
 "Attribute=Normalized Value / Worst / Threshold\n"
 msgstr ""
+"[S.M.A.R.T. 标识]\n"
+"标识=正常数值 / 最差值 / 临界值 \n"
 
 #: modules/devices/storage.c:297
 #, c-format
 msgid "(%d) %s=%s\n"
-msgstr ""
+msgstr "(%d) %s=%s\n"
 
 #: modules/devices/storage.c:306
 #, c-format
@@ -4005,17 +4058,21 @@ msgid ""
 "[Partition table]\n"
 "Type=%s\n"
 msgstr ""
+"[分区表]\n"
+"类型=%s\n"
 
 #: modules/devices/storage.c:325
 #, c-format
 msgid "Partition %s=%s\n"
-msgstr ""
+msgstr "分区 %s=%s\n"
 
 #: modules/devices/storage.c:375
 msgid ""
 "\n"
 "[SCSI Disks]\n"
 msgstr ""
+"\n"
+"[SCSI 硬盘]\n"
 
 #: modules/devices/storage.c:446 modules/devices/storage.c:645
 #, c-format
@@ -4023,6 +4080,8 @@ msgid ""
 "[Device Information]\n"
 "Model=%s\n"
 msgstr ""
+"[设备信息]\n"
+"型号=%s\n"
 
 #: modules/devices/storage.c:453
 #, c-format
@@ -4035,17 +4094,26 @@ msgid ""
 "ID=%d\n"
 "LUN=%d\n"
 msgstr ""
+"类型=%s\n"
+"修订版本号=%s\n"
+"[SCSI 控制器]\n"
+"控制器=scsi%d\n"
+"通道=%d\n"
+"ID=%d\n"
+"逻辑单元数=%d\n"
 
 #: modules/devices/storage.c:499
 msgid ""
 "\n"
 "[IDE Disks]\n"
 msgstr ""
+"\n"
+"[IDE 硬盘]\n"
 
 #: modules/devices/storage.c:582
 #, c-format
 msgid "Driver=%s\n"
-msgstr ""
+msgstr "驱动程序=%s\n"
 
 #: modules/devices/storage.c:650
 #, c-format
@@ -4054,6 +4122,9 @@ msgid ""
 "Media=%s\n"
 "Cache=%dkb\n"
 msgstr ""
+"设备名=hd%c\n"
+"媒体=%s\n"
+"缓存=%dkb\n"
 
 #: modules/devices/storage.c:660
 #, c-format
@@ -4062,6 +4133,9 @@ msgid ""
 "Physical=%s\n"
 "Logical=%s\n"
 msgstr ""
+"[分辨率]\n"
+"物理=%s\n"
+"逻辑=%s\n"
 
 #: modules/devices/storage.c:670
 #, c-format
@@ -4069,6 +4143,8 @@ msgid ""
 "[Capabilities]\n"
 "%s"
 msgstr ""
+"[ 能力]\n"
+"%s"
 
 #: modules/devices/storage.c:677
 #, c-format
@@ -4076,10 +4152,12 @@ msgid ""
 "[Speeds]\n"
 "%s"
 msgstr ""
+"[速度]\n"
+"%s"
 
 #: modules/devices/usb.c:134 modules/devices/usb.c:175
 msgid "Sub-class"
-msgstr ""
+msgstr "子类"
 
 #: modules/devices/usb.c:135 modules/devices/usb.c:176 modules/network.c:347
 msgid "Protocol"
@@ -4091,7 +4169,7 @@ msgstr "Mb/s"
 
 #: modules/devices/usb.c:171
 msgid "Max Current"
-msgstr ""
+msgstr "最大电流"
 
 #: modules/devices/usb.c:171
 msgid "mA"
@@ -4111,7 +4189,7 @@ msgstr "没找到 USB 设备。"
 
 #: modules/devices/x86/processor.c:149
 msgid "Cache information not available=\n"
-msgstr ""
+msgstr "缓存信息不可用=\n"
 
 #: modules/devices/x86/processor.c:155
 #, c-format
@@ -4128,13 +4206,13 @@ msgstr "数据"
 #: modules/devices/x86/processor.c:171
 msgctxt "cache-type"
 msgid "Instruction"
-msgstr ""
+msgstr "指令"
 
 #. /cache type, as appears in: Level 2 (Unified)
 #: modules/devices/x86/processor.c:172
 msgctxt "cache-type"
 msgid "Unified"
-msgstr ""
+msgstr "统一"
 
 #: modules/devices/x86/processor.c:367
 msgid "Caches"
@@ -4151,11 +4229,11 @@ msgstr "型号名称"
 
 #: modules/devices/x86/processor.c:648
 msgid "Family, model, stepping"
-msgstr ""
+msgstr "家族，型号，步进"
 
 #: modules/devices/x86/processor.c:654
 msgid "Microcode Version"
-msgstr ""
+msgstr "微码版本"
 
 #: modules/devices/x86/processor.c:655
 msgid "Configuration"
@@ -4171,31 +4249,31 @@ msgstr "kb"
 
 #: modules/devices/x86/processor.c:664
 msgid "Bug Workarounds"
-msgstr ""
+msgstr "问题解决方法"
 
 #: modules/devices/x86/processor.c:691
 msgid "Socket Information"
-msgstr ""
+msgstr "插槽信息"
 
 #: modules/devices/x86/processor.c:712
 msgid "CPU Socket"
-msgstr ""
+msgstr "CPU 插槽"
 
 #: modules/devices/x86/processor.c:716
 msgid "External Clock"
-msgstr ""
+msgstr "外部时钟"
 
 #: modules/devices/x86/processor.c:717
 msgid "Max Frequency"
-msgstr ""
+msgstr "最大频率"
 
 #: modules/devices/x86/processor.c:748 modules/devices/x86/processor.c:769
 msgid "Package Information"
-msgstr ""
+msgstr "封装"
 
 #: modules/devices/x86/processor.c:796
 msgid "Socket:Core"
-msgstr ""
+msgstr "插槽：核心"
 
 #: modules/devices/x86/processor.c:796
 msgid "Thread"
@@ -4205,19 +4283,19 @@ msgstr "线程"
 #: modules/devices/x86/x86_data.c:43
 msgctxt "x86-flag"
 msgid "Onboard FPU (floating point support)"
-msgstr ""
+msgstr "板载FPU（浮点数支持）"
 
 #. /flag:vme
 #: modules/devices/x86/x86_data.c:44
 msgctxt "x86-flag"
 msgid "Virtual 8086 mode enhancements"
-msgstr ""
+msgstr "虚拟8086模式增强"
 
 #. /flag:de
 #: modules/devices/x86/x86_data.c:45
 msgctxt "x86-flag"
 msgid "Debugging Extensions (CR4.DE)"
-msgstr ""
+msgstr "调试扩展（CR4.DE）"
 
 #. /flag:pse
 #: modules/devices/x86/x86_data.c:46
@@ -5626,11 +5704,11 @@ msgstr "IP 连接"
 
 #: modules/network.c:63
 msgid "Routing Table"
-msgstr ""
+msgstr "路由表"
 
 #: modules/network.c:64 modules/network.c:309
 msgid "ARP Table"
-msgstr ""
+msgstr "ARP表"
 
 #: modules/network.c:65
 msgid "DNS Servers"
